@@ -1,0 +1,48 @@
+HTML{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #111827;
+    color: #F9FAFB;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    transition: 0.3s;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.inicio {
+    margin: 20px;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #1F2937;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    transition: 1s;
+}
+
+li:hover {
+    transform: translateY(-10px);
+    background-color: #2563EB;
+    color: white;
+}
+
+img {
+    text-align: center;
+}
